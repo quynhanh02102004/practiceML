@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\Admin\PycharmProjects\K22416C\Bài 24_LearnQTableWidgetPart3\model\ClusterMainWindow.ui'
+# Form implementation generated from reading ui file 'C:\Users\Admin\PycharmProjects\K22416C\PracticeMl_mid\model\ClusterMainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1023, 826)
+        MainWindow.resize(1511, 826)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.lineEditSQLite = QtWidgets.QLineEdit(parent=self.centralwidget)
@@ -44,9 +44,18 @@ class Ui_MainWindow(object):
         self.pushFetchMore = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushFetchMore.setGeometry(QtCore.QRect(70, 720, 171, 51))
         self.pushFetchMore.setObjectName("pushFetchMore")
+        self.verticalLayoutWidget = QtWidgets.QWidget(parent=self.centralwidget)
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(860, 240, 561, 431))
+        self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.pushButtonShow = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonShow.setGeometry(QtCore.QRect(830, 50, 111, 41))
+        self.pushButtonShow.setObjectName("pushButtonShow")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1023, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1511, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
@@ -63,3 +72,4 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "Choose Table"))
         self.pushButtonPickSQLite.setText(_translate("MainWindow", "PushButton"))
         self.pushFetchMore.setText(_translate("MainWindow", "Fetch More"))
+        self.pushButtonShow.setText(_translate("MainWindow", "Show"))
